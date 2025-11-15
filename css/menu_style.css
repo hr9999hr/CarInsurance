@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0; /* Remove padding to avoid issues */
+    background-color: rgb(37, 119, 185);
+}
+header {
+    background-color: rgb(37, 119, 185);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* To position the logo inside the header */
+}
+.logo {
+    height: 300px; /* Adjust the height as needed */
+    position: absolute; /* Position the logo absolutely */
+    top: -90px;
+    right: 15px;
+    width: auto;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    color: white;
+    margin: 0 35px; /* Adjust margin for spacing */
+    text-decoration: none;
+    font-size: 20px; /* Increase the font size of the links */
+}
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3em;
+}
+.services {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+.service-title {
+    font-size: 2em; /* Larger font for the title */
+    color: rgb(37, 119, 185); /* Match header color */
+    margin-bottom: 20px; /* Add space between title and content */
+}
+.service {
+    background-color: rgb(123, 202, 236);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%; /* Adjust width for better spacing */
+    text-align: center;
+    margin-bottom: 20px; /* Add margin between the services */
+}
+footer {
+    background-color: rgb(18, 107, 166);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Additional styling for visual interest */
+.highlight {
+    background-color: rgb(237, 245, 255); /* Light background for sections */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px; /* Add margin */
+}
+
+td {
+    background-color: #E4F5D4;
+    border: 1px solid black;
+}
+
+th,
+td {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    font-weight: lighter;
+}
+.button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.add {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    margin-left: auto;
+}
+.edit {
+    background-color: #FFA500; /* Orange */
+    color: white;
+}
+.delete {
+    background-color: #f44336; /* Red */
+    color: white;
+}

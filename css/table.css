@@ -1,0 +1,65 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between borders */
+    margin: 20px 0; /* Add some margin above and below the table */
+    font-size: 16px; /* Set a base font size */
+}
+
+/* Table header styles */
+th {
+    background-color: rgb(37, 119, 185); /* Header background color */
+    color: white; /* Header text color */
+    padding: 12px; /* Padding for header cells */
+    text-align: left; /* Align text to the left */
+}
+
+/* Table cell styles */
+td {
+    padding: 10px; /* Padding for data cells */
+    border: 1px solid #ddd; /* Light gray border for cells */
+}
+
+/* Row hover effect */
+tr:hover {
+    background-color: rgb(237, 245, 255); /* Light blue background on hover */
+}
+
+/* Button styles */
+.button {
+    padding: 5px 10px; /* Padding for buttons */
+    margin: 0 5px; /* Margin between buttons */
+    border: none; /* Remove default border */
+    border-radius: 3px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 14px; /* Font size for buttons */
+}
+
+/* Specific button colors */
+.add {
+    background-color: #4CAF50; /* Green */
+    color: white; /* White text */
+}
+
+.edit {
+    background-color: #FFA500; /* Orange */
+    color: white; /* White text */
+}
+
+.delete {
+    background-color: #f44336; /* Red */
+    color: white; /* White text */
+}
+
+/* Button hover effects */
+.add:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.edit:hover {
+    background-color: #e68a00; /* Darker orange on hover */
+}
+
+.delete:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
